@@ -2,49 +2,38 @@ import './components/perfil.tsx'
 import Perfil from './components/perfil.tsx'
 import Linguagens from './components/linguagens/linguagens.tsx'
 import Quadro from './components/quadro.tsx'
+import BarraHome from './components/barra_home.tsx' 
 
 
 
 function App() {
 
   return (
-    <div className="App p-4 w-full h-full bg-center bg-cover  bg-blue-100 ">
+    <div className="App w-full h-full bg-center bg-cover  bg-gray-900 ">
 
-      <Perfil />
+      <BarraHome />
+
+      <div className='p-4'>
+
+        <Perfil />
 
 
-      <div className='space-x-4 space-y-1 mt-4 justify-center flex'>
-        <Quadro classname="w-80 h-100" title="Sobre mim" children={null} />
+        <div className='w-full space-y-4 flex-col'>
+          <div className='w-full border-b-3 border-b-gray-50 p-2'>
+            <h2 className='text-3xl font-bold   text-gray-50'>Tecnologias</h2>
+          </div>
 
-        <Quadro classname="w-80 h-100" title="Experiência Profissional" children={null} />        
+          <div className='flex'>
 
-        <Quadro classname="w-80 h-100" title="Escolaridade" children={null} />
+            <Quadro classname='' title='Linguagens' children={Linguagens()} />
+              
+          </div>
+          
+
+        </div>
 
 
       </div>
-
-      <div className='space-x-4 space-y-1 mt-4 justify-center flex'>
-        <Quadro classname="w-80 h-100" title="Idiomas" children={null} />
-
-        <Quadro classname="w-80 h-100" title="Habilidades" children={null} />        
-
-        <Quadro classname="w-80 h-100" title="Contatos" children={null} />
-
-
-      </div>
-
-
-      <div className='space-x-4 space-y-1 mt-4 justify-center flex'>
-        <Quadro classname="h-100" title="Certificados" children={Linguagens()} />
-
-        <Quadro classname="w-80 h-100" title="Linguagens" children={null} />
-
-        <Quadro classname="w-100 h-100" title="Projetos" children={null} />
-
-      </div>
-
-
-      
 
 
 
