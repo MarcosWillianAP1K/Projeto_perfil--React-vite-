@@ -2,6 +2,7 @@ import '../components/home/perfil.tsx'
 import Perfil from '../components/home/perfil.tsx'
 import Tecnologias from '../components/home/tecnologias.tsx'
 import BarraHome from '../components/home/barra_home.tsx' 
+import Experiencias from '../components/home/experiencias.tsx'
 
 
 
@@ -15,6 +16,8 @@ function Home() {
       <div className='p-4'>
 
         <Perfil />
+
+        <Experiencias />
 
         <Tecnologias />
 
