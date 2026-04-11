@@ -13,7 +13,7 @@ function Perfil() {
             <div className="flex-col items-start w-230">
                 <h2 className="text-2xl font-bold text-gray-50">Ola, sou Marcos Willian de Sousa e Silva...</h2>
 
-                <p className="text-gray-100">Desenvolvedor Full Stack proativo, com forte habilidade de trabalho em equipe. Sou comprometido com a qualidade do código, comunicativo e sempre em busca de soluções inovadoras. Adaptável, dedicado e motivado a entregar resultados excepcionais.    </p>
+                <p className="text-gray-100 font-mono">Desenvolvedor Full Stack proativo, com forte habilidade de trabalho em equipe. Sou comprometido com a qualidade do código, comunicativo e sempre em busca de soluções inovadoras. Adaptável, dedicado e motivado a entregar resultados excepcionais.    </p>
 
             </div>  
 
