@@ -5,6 +5,7 @@ import BarraHome from '../components/home/barra_home.tsx'
 import Experiencias from '../components/home/experiencias.tsx'
 import Projetos from '../components/home/projetos.tsx'
 import Contatos from '../components/home/contatos.tsx'
+import Formacao from '../components/home/formacao.tsx'
 
 
 
@@ -15,11 +16,13 @@ function Home() {
 
       <BarraHome />
 
-      <div className='p-4'>
+      <div className='p-4 space-y-4'>
 
         <Perfil />
 
         <Experiencias />
+
+        <Formacao />
 
         <Tecnologias />
 

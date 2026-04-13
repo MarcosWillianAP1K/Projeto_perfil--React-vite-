@@ -8,6 +8,7 @@ function BarraHome() {
 
             <button className="text-white hover:bg-gray-700 ">Sobre Mim</button>
             <button className="text-white hover:bg-gray-700">Experiencias</button>
+            <button className="text-white hover:bg-gray-700">Formação</button>
             <button className="text-white hover:bg-gray-700">Tecnologias</button>
             <button className="text-white hover:bg-gray-700">Projetos</button>
             <button className="text-white hover:bg-gray-700">Contatos</button>
