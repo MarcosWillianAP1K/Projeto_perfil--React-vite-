@@ -1,17 +1,26 @@
 
 
+const itensBotoes = [
+    { id: 1, nome: 'Sobre Mim' },
+    { id: 2, nome: 'Experiencias' },
+    { id: 3, nome: 'Formação' },
+    { id: 4, nome: 'Tecnologias' },
+    { id: 5, nome: 'Projetos' },
+    { id: 6, nome: 'Contatos' },
+];
+
+
 function BarraHome() {
 
     return (
 
         <div className='w-full h-20 bg-gray-950 items-center justify-center flex space-x-4'>
 
-            <button className="text-white hover:bg-gray-700 ">Sobre Mim</button>
-            <button className="text-white hover:bg-gray-700">Experiencias</button>
-            <button className="text-white hover:bg-gray-700">Formação</button>
-            <button className="text-white hover:bg-gray-700">Tecnologias</button>
-            <button className="text-white hover:bg-gray-700">Projetos</button>
-            <button className="text-white hover:bg-gray-700">Contatos</button>
+            {itensBotoes.map((item) => (
+                <button key={item.id} className="text-white hover:bg-gray-700">
+                    {item.nome}
+                </button>
+            ))}
 
 
 
