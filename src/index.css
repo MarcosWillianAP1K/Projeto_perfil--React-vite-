@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Define a altura da barra horizontal */
 .scrollbar-estilizada::-webkit-scrollbar {
   height: 8px;

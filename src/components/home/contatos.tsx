@@ -4,8 +4,8 @@ import Perfil_linguagens from "../ui/perfil_linguagem"
 
 const itensContatos = [
     { id: 1, nome: "Email", directory: "", href: "mailto:example@email.com" },
-    { id: 2, nome: "GitHub", directory: "", href: "https://github.com/example" },
-    { id: 3, nome: "Instagram", directory: "", href: "https://instagram.com/example" },
+    { id: 2, nome: "GitHub", directory: "", href: "https://github.com/MarcosWillianAP1K" },
+    { id: 3, nome: "Instagram", directory: "", href: "https://www.instagram.com/marcos_w17/" },
     { id: 4, nome: "Discord", directory: "", href: "https://discord.com/users/example" },
 ];
 
