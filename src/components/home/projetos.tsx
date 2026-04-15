@@ -97,9 +97,9 @@ function Projetos() {
                     className="flex-1 flex overflow-x-auto gap-6 py-4 scrollbar-estilizada scroll-smooth"
                 >
                     {dadosProjetos.map((projeto) => (
-                        <div key={projeto.id} className="w-75 shrink-0">
+                        <div key={projeto.id} className="h w-75 shrink-0">
                             {/* Alteração rápida: Fechando o Quadro corretamente envolvendo o filho */}
-                            <Quadro>
+                            <Quadro classname="hover:shadow-lg hover:shadow-gray-400 hover:-translate-1">
                                 <PerfilProjeto titulo={projeto.titulo} descricao={projeto.descricao} directory="" url={projeto.links} />
                             </Quadro>
                         </div>

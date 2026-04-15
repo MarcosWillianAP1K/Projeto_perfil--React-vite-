@@ -20,7 +20,7 @@ function Contatos() {
             <div className="flex flex-col p-2 space-y-3">
 
                 {itensContatos.map((item) => (
-                    <div key={item.id} className="w-fit">
+                    <div key={item.id} className="hover:-translate-1 hover:bg-gray-400 rounded-xl p-1 w-fit">
                         <a href={item.href} target="_blank" rel="noopener noreferrer">
                             <Perfil_linguagens nome={item.nome} directory={item.directory} />
                         </a>

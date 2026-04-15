@@ -12,7 +12,7 @@ function Perfil_linguagens({ directory, nome }: PerfilProps) {
     return (
        
         <div className="w-fit space-x-2 flex text-center justify-start items-center pr-2">
-            <div className="w-11 h-10 overflow-hidden shrink-0">
+            <div className="w-11 h-10 overflow-hidden rounded-xl shrink-0">
                 <img src={imagemFinal} alt={`Logo ${nome}`} className="object-cover w-full h-full" />
             </div> 
             

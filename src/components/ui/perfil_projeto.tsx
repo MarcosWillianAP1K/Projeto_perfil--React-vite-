@@ -17,7 +17,7 @@ const PerfilProjeto = ({titulo, descricao, directory, url} : {titulo: string, de
             <p className="text-gray-600 mt-2">{descricao}</p>
             <div className="flex space-x-4 mt-4">
                 {Object.entries(url).map(([name, link]) => (
-                    <a key={name} href={link} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                    <a key={name} href={link} className="hover:-translate-1 hover:bg-gray-200  rounded-xl p-1 text-blue-500" target="_blank" rel="noopener noreferrer">
                         {name}
                     </a>
                 ))}
